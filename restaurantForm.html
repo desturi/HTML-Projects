@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restuarant</title>
+</head>
+<body>
+    <form>
+        <center>
+            <h1>Restuarant</h1>
+            <h4>Pasta & Pizza</h4>
+
+            <label>Name: </label>
+            
+            <label for="FirstName">First Name</label>
+            <input display: inline-block type="text" name="FirstName" id="FirstName" required />
+            
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LastName" id="LastName" required />
+            <br>
+            <br>
+        
+            <label for="Email">Email: </label>
+            <input type="text" name="Email" id="Email" required />
+            <br>
+            <br>
+
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />  
+            <br>
+            <br>
+
+            <label for="NumberOfGuests">Number of Guests:</label>
+            <input type="number" min="1" max="12" step="1">
+            <br>
+            <br>
+
+            <P>Reservation Date & Time</P>
+            <br>
+
+            <label for="SpecialNotes">Special Notes</label>
+            <br>
+            <textarea id="SpecialNotes" name="SpecialNotes" rows="5" cols="40">
+            </textarea>
+            <br>
+            <button type="submit">Reserve</button>  
+            <br>
+            <br>  
+
+            <img src="./Pasta and Pizza.png"></img>
+               
+
+        </center>
+    </form>
+</body>
+</html>

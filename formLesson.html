@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About page</title>
+  </head>
+  <body>
+    <main>
+      <!-- <iframe
+        id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="100px"
+        height="100px"
+        src="https://www.wikipedia.org/"
+      >
+      </iframe> -->
+      <form>
+        <h3>Add your data</h3>
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required />
+        <!-- <label for="email"> Enter your email address</label>
+        <input type="email" name="email" id="email"/> -->
+        <br />
+        <label for="collie">Collie</label>
+        <input type="radio" id="collie" name="drone" value="collie" checked />
+        <br />
+        <label for="Chihuahua">Chihuahua</label>
+        <input type="radio" id="Chihuahua" name="drone" value="Chihuahua" />
+        <br />
+        <label for="blue">Blue</label>
+        <input type="checkbox" id="blue" name="blue" checked />
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" name="red" />
+        <br />
+        <label for="pet-select">Choose a pet:</label>
+        <select name="pets" id="pet-select">
+          <option value="option-one">Option 1</option>
+          <option value="option-two">Option 2</option>
+          <option value="option-three">Option 3</option>
+        </select>
+        <label for="story">Tell us your story:</label>
+        <textarea id="story" name="story" rows="5" cols="33">
+        It was a dark and stormy night...
+        </textarea>
+        <br />
+        <button type="submit" disabled>Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
